@@ -121,6 +121,8 @@ for(var l=0; l<brandArray.length; l++)
 // 	}
 // }
 
+
+
 //output sony items avaliable
 for(var n=0; n<brandArray.length; n++)
 {
@@ -143,20 +145,20 @@ for(var n=0; n<brandArray.length; n++)
 }
 
 // items made by adorama
-for(var m=0; m<authorArray.length; m++)
-{
+// for(var m=0; m<authorArray.length; m++)
+// {
 
-			for(var c=0; c<items.length; c++)
-			{
+// 			for(var c=0; c<items.length; c++)
+// 			{
 				
-				if (authorArray[m]["product"].googleId===items[c]["product"].googleId)
-				{
-					console.log("Item "+ c +" is a both made by "+ author);
-				}
-			}
+// 				if (authorArray[m]["product"].googleId===items[c]["product"].googleId)
+// 				{
+// 					console.log("Item "+ c +" is a both made by "+ author);
+// 				}
+// 			}
 
 		
-}
+// }
 
 
 // avaliable items made by adorama camera
