@@ -72,3 +72,5 @@ console.log(adoramaAuthor);
 console.log('------------');
 console.log(nikonAvailable);
 
+
+
