@@ -1,6 +1,11 @@
 //define getItemsCount function
 //accepts full item data
 //returns the length of the items array
+
+//load products.json
+var data = require("./products.json")
+
+
 var getItemsCount = function(itemData){
 	return itemData.items.length;
 };
@@ -14,74 +19,61 @@ var getItemsCount = function(itemData){
 
 // question 1
 
-var getItems = function(objectData) {
 
-	return objectData.items
+
+var items ;
+
+var getItems = function(objectData) {
+	
+	return objectData.items;
+	
 	}
 
-}
+	var items = getItems(data);
 
-console.log(getItems(data));
+	console.log(items);
+	console.log(getItems(data));
 
 //question 2
 
 
-var items = getItems(data) {
-	console.log(items);
-}
 
 
 var getItemsByBrand = function (items, brand) {
-	for (i = 0, i < data.items.length, i++) {
-		if items[i].product.brand === brand {
-			brandItems.push();
+	var brandItems = [];
+	for (i = 0 ; i < items.length ; i++) {
+		if (items[i].product.brand === brand) {
+			brandItems.push(items[i]);
 			}
 		
-		return brandItems;
 	}
-	
-var brandItems = [];
-
+	return brandItems;
+}
 
 //question 3//
 
+
 var getItemsByAuthor = function (items, author) {
-	for (i = 0, i < data.items.length, i++) {
-		if items[i].product.author === author {
-			authorItems.push();
+	var authorItems = [];
+	for (i = 0 ; i < items.length ; i++) {
+		if (items[i].product.author.name.toLowerCase().indexOf(author) != -1 ) {
+			authorItems.push(items[i]);
 			}
 		}
-		
-		return authorItems;
-
-	var authorItems [];
+		return authorItems;	
 }
 
 //question 4//
 
 var getAvailableProducts = function (items) {
-	for (i=0, i < data.items.length, i++) {
-		if items.[i].product.inventories[0].availability === "inStock" {
-			availabilityItems.push();
+	var availabilityItems = []
+	for (i=0 ; i < items.length ; i++) {
+		if (items[i].product.inventories[0].availability === "inStock" ) {
+			availabilityItems.push(items[i]);
 		}
 	}
-
 	return availabilityItems;
-
-	var availabilityItems [];
-
 }
-
-}
-
-
-
-//load products.json
-var data = require("./products.json")
-
-//
-//USE FUNCTIONS HERE
-//
 
 //All items made by Sony
 
@@ -95,13 +87,13 @@ console.log (getAvailableProducts(brandSony));
 
 // All available items by author Adorama Camera
 
-var adoramaProducts = getItemsByAuthor(items,"Adorama Camera");
-	console.log(getAvailableProducts(adoramaProducts));
+var productsByAuthor = getItemsByAuthor(items,"Adorama Camera");
+	console.log(getAvailableProducts(productsByAuthor));
 
 // All items made by Nikon with the author eBay
 
-var madeByNikon = getItemsByBrand(items,"Nikon");
-  console.log(getItemsByAuthor(madeByNikon));
+var productsByBrand = getItemsByBrand(items,"Nikon");
+  console.log(getItemsByAuthor(productsByBrand, "ebay"));
 
 
 
