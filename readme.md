@@ -31,7 +31,7 @@ Create a function called `getItems` that simply returns the items array from the
 
 Create a function called `getItemsByBrand` that takes an item array returns a new array of all items of a specified brand.
 
-Test this function by searching for Sony, Cannon, Nikon and Panasonic.
+Test this function by searching for Sony, Canon, Nikon and Panasonic.
 
 
 ##3.) getItemsByAuthor(items, author)
