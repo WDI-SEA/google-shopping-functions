@@ -79,3 +79,9 @@ console.log(getItemsByBrand(getItems(data), 'Cannon'));
 ##Bonus
 
 Create another search function and/or think of other interesting ways to combine the functions to preform useful searches.
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
