@@ -78,7 +78,7 @@ console.log(getItemsByBrand(getItems(data), 'Cannon'));
 
 ##Bonus
 
-Create another search function and/or think of other interesting ways to combine the functions to preform useful searches.
+Create another search function and/or think of other interesting ways to combine the functions to perform useful searches.
 
 ---
 
