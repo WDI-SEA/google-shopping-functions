@@ -7,9 +7,7 @@ Using the google shoping data used before (also included in this repository) cre
 ## Getting Started
 
 * Fork and clone this repository
-* Run `npm install` to install dependencies
 * Start creating functions in `js/google_shopping_functions.js`
-* Run `npm run lint:js` to lint your code
 
 ## Deliverables
 
