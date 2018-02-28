@@ -1,4 +1,3 @@
-var data = require('../products.json');
 
 /*
  * example function called getItemsCount
