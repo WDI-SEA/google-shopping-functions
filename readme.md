@@ -58,6 +58,8 @@ Use the functions you created in 1 - 5 to ouput (console.log) the following list
 * All available items by the author "Adorama Camera"
 * All items made by Nikon with the author eBay.
 
+* remember that you must create a script tag for each file you create, and that they must be in the correct order for your code to run.
+
 
 
 ** Example Function Usage**
