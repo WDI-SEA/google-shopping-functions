@@ -8,6 +8,7 @@ Using the google shoping data used before (also included in this repository) cre
 
 * Fork and clone this repository
 * Start creating functions in `js/google_shopping_functions.js`
+* Run your functions in `script.js` 
 
 ## Deliverables
 
