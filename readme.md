@@ -85,7 +85,7 @@ If no results were found, let the user know.
 
 ## Further
 
-Prompt the user if they want to do the following things:
+Prompt the user if they want to do or see the following things, then do that thing based on what the user entered:
 
 1) The number of product items
 
@@ -93,7 +93,7 @@ Prompt the user if they want to do the following things:
 
 3) Total price of all inventory
 
-4) Search for something else
+4) Search for one of the things above
 
 
 ## Further
