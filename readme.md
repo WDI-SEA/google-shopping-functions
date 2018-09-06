@@ -52,7 +52,7 @@ Create function called `getAvailableProducts` that takes an item array and retur
 
 ## 5.) Use your functions
 
-Use the functions you created in 1 - 5 to ouput (console.log) the following lists of items.
+Use the functions you created in 1 - 4 to ouput (console.log) the following lists of items.
 
 * All items made by Sony.
 * All items made by Sony that are available.
