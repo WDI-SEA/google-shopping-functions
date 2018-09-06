@@ -76,8 +76,27 @@ console.log(cannonItems);
 console.log(getItemsByBrand(getItems(data), 'Cannon'));
 ```
 
+## Further
+Prompt the user for the search term they are looking for.
 
-## Bonus
+
+## Further
+If no results were found, let the user know.
+
+## Further
+
+Prompt the user if they want to do the following things:
+
+1) The number of product items
+
+2) The country of each item
+
+3) Total price of all inventory
+
+4) Search for something else
+
+
+## Further
 
 Create another search function and/or think of other interesting ways to combine the functions to perform useful searches.
 
