@@ -98,7 +98,12 @@ Prompt the user if they want to do or see the following things, then do that thi
 
 ## Further
 
-Create another search function and/or think of other interesting ways to combine the functions to perform useful searches.
+Let the user enter in a maximum or minimum price. Only show them items that correspond.
+
+## Further
+
+Let the user enter in a maximum *and* minimum price. Only show them items that correspond.
+
 
 ---
 
