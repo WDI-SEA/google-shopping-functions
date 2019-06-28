@@ -40,7 +40,7 @@ Create the following functions.
 
 ## 1.) getItems(objectData)
 
-* **input:** json object
+* **input:** json array of object
 * **returns:** an array of items
 
 Create a function called `getItems`. It returns the `items` array from the google product object.
