@@ -1,14 +1,38 @@
-# JavaScript Functions
+# Google Shopping
 
-Using the google shoping data used before (also included in this repository) create some useful functions to answer the following questions.
+We'll be using a file represented as **JSON** for this assignment. JSON is a standard for formatting data, and it's a common format you'll see throughout your web development career. Even more important will be parsing JSON.
+
+This large object is in the products js file. It is the kind of object you would really recieve from google shopping.
+
+### Hint
+It's very important to understand the structure of the `products` object.
+Use the console to look at this object. When you type the `product` variable into the console, it becomes interactive.
+
+Paste in the code that can access certain parts of the object and see what values, if any, you get out.
+
+Example `cats[1].allergies[6]` - if you don't see anything back up- try the thing above: `cats[1].allergies`
+
+### more hints
+* install a sublime package if you want to be able to see the object more clearly: [https://packagecontrol.io/packages/SyntaxFold](https://packagecontrol.io/packages/SyntaxFold)
+
+* it allows you to "fold" your code to see the format of it.
+
+* If you type in the variable name `products` in the google chrome developer console, you can see and inspect all the items in the product object.
+* When in doubt, think about the different functions available for **strings**, **objects**, and **arrays**.
+* Double-check your results, especially with #5
+* Documentation
+  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
 **REMEMBER:** data should be passed in to the function as arguments and out as a return value. DO NOT access/modify variables defined outside of the function.
 
 ## Getting Started
 
 * Fork and clone this repository
+* set up a basic index.html and script.js file. (no interactive unit 1 template for this first version)
 * Start creating functions in `js/google_shopping_functions.js`
-* Run your functions in `script.js` 
+* Run your functions in `script.js`
 
 ## Deliverables
 
