@@ -51,17 +51,14 @@ Create function called `getAvailableProducts` that takes an item array and retur
 
 
 ## 5.) Use your functions
-
-Use the functions you created in 1 - 4 to ouput (console.log) the following lists of items.
+Run your functions with the following data:
 
 * All items made by Sony.
 * All items made by Sony that are available.
 * All available items by the author "Adorama Camera"
 * All items made by Nikon with the author eBay.
 
-* remember that you must create a script tag for each file you create, and that they must be in the correct order for your code to run.
-
-
+Simply console.log the data at the end.
 
 ** Example Function Usage**
 
@@ -77,15 +74,16 @@ console.log(getItemsByBrand(getItems(data), 'Cannon'));
 ```
 
 ## Further
-Prompt the user for the search term they are looking for.
+Copy the unit 1 template into your code.
 
+Get the `userInput` and use it as the search term input to your `getItemsByBrand` function.
 
 ## Further
 If no results were found, let the user know.
 
 ## Further
 
-Prompt the user if they want to do or see the following things, then do that thing based on what the user entered:
+Ask the user if they want to do or see the following things, then do that thing based on what the user entered:
 
 1) The number of product items
 
