@@ -19,9 +19,9 @@ Create the following functions.
 * **input:** json object
 * **returns:** an array of items
 
-Create a function called `getItems` that simply returns the items array from the google product object.
+Create a function called `getItems`. It returns the `items` array from the google product object.
 
-**Note** all other functions (below) use the return of this function as their input.
+**Note** all other functions (below) use the return of this function (the items array) as their input data.
 
 ## 2.) getItemsByBrand(items, brand)
 
