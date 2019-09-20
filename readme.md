@@ -58,7 +58,14 @@ var inputHappened = function(currentInput){
 
 ## Deliverables
 
-Create the following functions.
+Create the following functions. Display the results to the user.
+
+#### Note:
+Inside of `inputHappened` you will need to deal with the return value of your functions.
+
+Try returning the value of your completed function. What shows on the screen?
+
+You will be required to loop through the result and format a string value that contains the information you want to show. You can use the characters `\n` if you want text to go on another line.
 
 ## 0.) getItems(objectData)
 
